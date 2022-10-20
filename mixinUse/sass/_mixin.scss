@@ -1,0 +1,25 @@
+@mixin flexProperty {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin textColor {
+    color: white;
+}
+
+@mixin container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+@mixin alignmentCenter {
+    text-align: center;
+}
+
+@mixin fontBold {
+    font-weight: bold;
+}
+
+@mixin uniHeight {
+    height: 700px;
+}

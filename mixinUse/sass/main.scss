@@ -1,0 +1,116 @@
+@import "mixin";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.home-section {
+    @include uniHeight;
+    background-image: url("../assets/images/Wildlife-Photography-Tour.jpg");
+    background-repeat: no-repeat;
+
+    .home-header {
+
+        padding: 10px;
+        @include flexProperty;
+        align-items: center;
+
+        img {
+            width: 80px;
+            height: 70px;
+            border: none;
+            border-radius: 10%;
+
+        }
+
+        nav {
+            margin-right: 50px;
+
+            a {
+                @include textColor;
+                text-decoration: none;
+                @include fontBold;
+                font-size: 20px;
+                margin-left: 20px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #282828;
+                }
+            }
+        }
+    }
+
+    .container {
+        @include container;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .main-home {
+            position: absolute;
+            top: 200px;
+
+            h3 {
+                @include textColor;
+                @include fontBold;
+                @include alignmentCenter;
+                font-size: 40px;
+            }
+
+            h6 {
+                @include textColor;
+                @include alignmentCenter;
+                font-size: 12px;
+            }
+        }
+
+    }
+}
+
+.section-about {
+    background-image: url("../assets/images/natture.jpg");
+    background-repeat: no-repeat;
+    @include uniHeight;
+
+    .container {
+        @include container;
+
+        h1 {
+            padding-top: 100px;
+            @include alignmentCenter;
+            font-size: 30px;
+            color: maroon;
+            @include fontBold;
+        }
+
+        .about-main {
+            @include flexProperty;
+            padding-top: 80px;
+
+            div {
+                img {
+                    width: 500px;
+                }
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-right: 50px;
+
+                p {
+                    width: 400px;
+                    font-size: 23px;
+                    font-style: italic;
+                    color: palevioletred;
+                    @include alignmentCenter;
+                }
+            }
+        }
+    }
+}

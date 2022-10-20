@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js array</title>
+</head>
+
+<body>
+    <script>
+        let arr1 = [10, 15, 2000, 5, 55, 100, 200, 102, 102, 500, 1000, 2, 3];
+        let largest = arr1[0];
+        for (var i = 0; i < arr1.length; i++) {
+            if (largest > arr1[i]) {
+                largest = arr1[i];
+            }
+        }
+        document.write(`largest number is = ${largest}`);
+    </script>
+</body>
+
+</html>

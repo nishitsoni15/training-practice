@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.home-section {
+  height: 700px;
+  background-image: url("../assets/images/Wildlife-Photography-Tour.jpg");
+  background-repeat: no-repeat;
+}
+.home-section .home-header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-section .home-header img {
+  width: 80px;
+  height: 70px;
+  border: none;
+  border-radius: 10%;
+}
+.home-section .home-header nav {
+  margin-right: 50px;
+}
+.home-section .home-header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.home-section .home-header nav a:hover {
+  color: #282828;
+}
+.home-section .container {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.home-section .container .main-home {
+  position: absolute;
+  top: 200px;
+}
+.home-section .container .main-home h3 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+.home-section .container .main-home h6 {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.section-about {
+  background-image: url("../assets/images/nature-of-fresh-green-leaf-on-blurred-greenery-background-and-sun-with-copy-space-for-text-natural-green-plant-for-environment-ecology-and-fresh-concept-using-as-background-cover-page-and-wallpaper-fre.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.section-about .container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.section-about .container h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  color: maroon;
+  font-weight: bold;
+}
+.section-about .container .about-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.section-about .container .about-main div img {
+  width: 500px;
+}
+.section-about .container .about-main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+.section-about .container .about-main div p {
+  width: 400px;
+  font-size: 23px;
+  font-style: italic;
+  color: palevioletred;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
